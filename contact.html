@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alvin Muiru">
+    <meta name="description" content="Contact information for the Little Taco Shop.">
+    <title>The LTS</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <h1 class="header_h1">Contact us</h1>
+    <nav class="header_nav">
+        <ul class="header_ul">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li><a href="/#menu">menu </a></li>
+    
+            <li><a href="hours.html">Hours </a></li>
+            <li><a href="about.html">About </a></li>
+        </ul>
+        
+    </nav>
+</header>
+
+    <section class="hero">
+        <figure>
+            <img src="tacos_close_up_400x260.png" alt="Little taco shop tacos" title="We love tacos">
+            <figcaption class="offscreen">Tacos and a drink</figcaption>
+        </figure>
+    </section>
+
+    <hr>
+    <main>
+        <section >
+            <article class="main_article contact"></article>
+        <h2 class="contact_h2">Our contact form</h2>
+        <form action="https://httpbin.org/get"method="get" class="contact_form">
+            <fieldset class="contact_fieldset">
+                <legend class="offscreen">Send us a message</legend>
+                <p class="contact_p">
+                    <label class="contact_label"  for="name
+                    ">Name</label>
+                    <input class="contact_input" type=" text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p contact_p>
+                    <label class="contact_label" for="email
+                    ">Email</label>
+                    <input  class="contact_input"type=" email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p contact_p>
+                    <label class="contact_label" for="message">your message</label>
+                    <textarea class="contact_textarea"class="contact_label" name="message" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </p>
+            </fieldset>
+            <button class="contact_button" type="submit">Send</button>
+            <button class="contact_button" type="reset">reset</button>
+        </form>
+        </section>
+        <h2>Our Location</h2>
+        <address>
+            555 Taco temptation lane,Suite T <br>
+        </address>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+
+</body>
+
+</html>
